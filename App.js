@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
+
+// Componente principal do app
+
 import { View, Text, TextInput, TouchableOpacity, ScrollView, StyleSheet } from 'react-native';
+ // Estado que define qual tela está ativa (login, cadastro, inicial, desenvolvimento, etc.
 
 export default function App() {
   const [pagina, setPagina] = useState('login');
